@@ -5,7 +5,7 @@
 services:
   renovate:
     # Check latest version here: https://github.com/mend/renovate-ce-ee/pkgs/container/renovate-ce
-    image: renovate/renovate:39.133.4
+    image: renovate/renovate:39.140.2
     ports:
       # Note: Set MEND_RNV_SERVER_PORT to match internal port. (Defaults to 8080)
       - "80:8080"  # "[external]:[internal]" Receive APIs and Webhooks on external port
